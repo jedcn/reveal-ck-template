@@ -3,25 +3,27 @@
 This project contains all that's necessary for starting with
 reveal-ck.
 
-My suggestion is that you fork it, rename your fork to match your
-talk, and then start commiting and pushing your latest slides to your
-renamed fork.
+My suggestion is that you:
 
-## Getting Started
+* Fork it,
 
-* Fork this repository
-* Rename your newly forked repository
-* Clone your fork
+* Rename your fork to match your talk
+
+* Clone it
+
 * Get reveal-ck by running a `bundle`
-* Generate the set of slides that come with this template by running
-  `reveal-ck generate`
-* View the slides by running `open slides/index.html` (MacOS)
 
-Once you've made it this far, start editing your `slides.haml` and run
-`reveal-ck generate` as you make progress.
+* Run `reveal-ck generate` which will build the set of slides that
+  come with the project and ensure that everything is up and running.
 
-If you've already got the slides open in a browser, just refresh.
+* View the generate slides in a browser by running `open
+  slides/index.html` (MacOS)
 
-Remember to commit (and push) progress as you go.
+* Update `config.toml` (name, talk name, change theme if desired)
+
+Once you've made it this far, start editing your `slides.haml` and
+re-run `reveal-ck generate` as you make progress.
+
+You can commit and push as you go.
 
 Enjoy!

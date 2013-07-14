@@ -1,0 +1,8 @@
+author = "TODO: Your Name Here"
+title  = "TODO: Your Presentation's Title Here"
+
+[presentation]
+
+# This could be night, sky, beige.. Anything from
+# http://lab.hakim.se/reveal-js/#/themes
+theme  = "default"
