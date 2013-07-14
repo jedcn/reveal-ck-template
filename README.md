@@ -5,7 +5,7 @@ reveal-ck.
 
 My suggestion is that you:
 
-* Fork it,
+* Fork it
 
 * Rename your fork to match your talk
 
@@ -17,9 +17,10 @@ My suggestion is that you:
   come with the project and ensure that everything is up and running.
 
 * View the generate slides in a browser by running `open
-  slides/index.html` (MacOS)
+  slides/index.html` (MacOS only)
 
-* Update `config.toml` (name, talk name, change theme if desired)
+* Update `config.toml` (supply your name, talk name, change theme if
+  desired)
 
 Once you've made it this far, start editing your `slides.haml` and
 re-run `reveal-ck generate` as you make progress.
